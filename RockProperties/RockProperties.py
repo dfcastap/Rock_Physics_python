@@ -7,6 +7,7 @@ from scipy.optimize import fsolve, bisect
 import MyModule as mm
 import matplotlib.pyplot as plt
 from math import sqrt, exp, pi, fabs, log
+import pandas as pd
 
 def getPoissonRatioFromBulkAndShearModulus( bulkModulus, shearModulus ):
 	"""
